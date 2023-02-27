@@ -11,6 +11,7 @@
 ## Submit to AutoCode
 1. Select your task (JavaScript Objects and OOP)
 2. Press the `Check task` button and enjoy, results will be available in few minutes
+3. Press the `Submit task` to submit your solution
 
 ### Notes
 1. We recommend you to use nodejs of version 14 or lower. If you using are any of the features which are not supported by v18, the score won't be submitted.
