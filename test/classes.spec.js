@@ -1,7 +1,7 @@
 const { describe, it } = require('mocha');
 const { expect } = require('chai');
 
-const { person, student } = require('../classes.js');
+const { person, student } = require('../src/classes.js');
 
 describe('person', () => {
   it('should have firstName property', () => {

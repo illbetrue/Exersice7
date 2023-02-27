@@ -1,7 +1,7 @@
 const { describe, it } = require('mocha');
 const { expect } = require('chai');
 
-const { BasePage, LoginPage, Component } = require('../pageObject');
+const { BasePage, LoginPage, Component } = require('../src/pageObject');
 
 const base = new BasePage('www.test.com');
 const login = new LoginPage('www.test.com', '/login');
