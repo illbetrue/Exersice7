@@ -2,14 +2,13 @@
   "name": "javascript-objects-and-oop",
   "version": "1.0.0",
   "description": "JavaScript Objects and OOP",
-  "main": "classes.js",
+  "main": "src/classes.js",
   "scripts": {
     "test:junit": "cross-env MOCHA_FILE=junit.xml mocha test --reporter mocha-junit-reporter",
     "test:xunit": "cross-env MOCHA_FILE=xunit.xml mocha test --reporter mocha-xunit-reporter",
     "test": "npm run test:junit",
     "build": "echo \"Dummy build script\"",
     "test:dev": "mocha"
-
   },
   "repository": {
     "type": "git",
