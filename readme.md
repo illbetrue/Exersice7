@@ -1,10 +1,10 @@
 ## Hometask
 
-1. Fork this repository: Variables and Data Types
+1. Fork this repository: JavaScript Objects and OOP
 5. Clone your newly created repo: https://gitlab.com/<%your_gitlab_username%>/javascript-object-and-oop/
 6. Go to folder `javascript-object-and-oop`
 7. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)
-8. Do tasks from .src/classes.js, .src/objects.js and .src/pageObject.js
+8. Do tasks from ./src/classes.js, ./src/objects.js and ./src/pageObject.js
 9. Run `npm run test:dev` in the command line
 7. You will see the number of passing and failing tests
 
