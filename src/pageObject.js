@@ -19,13 +19,49 @@
  * 10. BasePage should have getters 'footer()' and 'header()' that will return new Component
  * passing 'footer' and 'header' respectively ( e.g return new Component('footer') )
  */
+  class BasePage {
+    constructor(url) {
+      this.url = url;
+    }
+
+    open(pageName) {
+      return `Open this ${this.url}/${pageName}`;
+    }
+
+    get footer() {
+      return new Component('footer');
+    }
+
+    get header() {
+      return new Component('header');
+    }
+  }
+
+  class LoginPage extends BasePage {
+    constructor(url, name) {
+      super(url);
+      this.name = name;
+    }
+
+    open() {
+      return super.open(this.name);
+    }
+  }
+
+  class Component {
+    constructor(type) {
+      this.type = type;
+    }
+
+    review() {
+      return `I can review ${this.type}`;
+    }
+  }
 
 
-class BasePage {}
-
-class LoginPage {}
-
-class Component {}
+  const loginPage = new LoginPage('https://example.com', 'login');
+  console.log(loginPage.open());
+  console.log(loginPage.footer.review());
 
 module.exports = {
   BasePage,
